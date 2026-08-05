@@ -32,4 +32,4 @@ let text = ' THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG          '
 alert(text.trim().toLowerCase().toString())
 //STEP 10
 let text = 'the quick brown fox jumps over the lazy dog'
-alert(text.replace('the', 'The'))
+alert(text.charAt(0).toUpperCase() + text.slice(1))
